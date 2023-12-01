@@ -6,7 +6,7 @@
 
 * Utiliza siempre que sea posible los componentes de Bootstrap, como los botones, cards, navs, tooltips... esto te ahorrará tiempo y tu web ganará consistencia. Aquí tienes los componentes de Bootstrap -> <a href = "https://getbootstrap.com/docs/5.0/components/accordion/"> components accordion </a>
 
-*¡Nunca modifiques las clases de los archivos originales de Bootstrap!
+* ¡Nunca modifiques las clases de los archivos originales de Bootstrap!
 
 * Posiciona los elementos con las clases de márgenes y rellenos de Bootstrap. Para proyectos grandes, esta práctica simplifica mucho los archivos CSS. Para obtener más información sobre -> <a href = "https://getbootstrap.com/docs/5.0/utilities/spacing/"> utilities spacing de Bootstrap</a>
 
