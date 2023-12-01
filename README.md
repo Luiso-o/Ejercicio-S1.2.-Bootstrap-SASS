@@ -12,7 +12,7 @@
 
 * Personaliza el tema de Bootstrap por defecto para adaptarlo a los estilos de la web que estás creando mediante SASS. No es necesario crear nuevas clases, puedes ajustar Bootstrap para adaptarlo a tus necesidades: rellenos por defecto, colores del tema, márgenes...
 
-## Ejercicio 1
+## Fase 1
 
 * En este ejercicio comenzaremos con la parte principal, que es el contenido que ven los usuarios al entrar en la web:
 
