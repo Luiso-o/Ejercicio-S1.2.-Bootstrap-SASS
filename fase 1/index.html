@@ -9,34 +9,51 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body class="container my-3">
-  <nav class="navbar navbar-light">
+<body>
 
-    <img src="images/logo-bookmark.svg">
+  <div class="container my-3">
 
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link text-dark" aria-current="page" href="#">FEATURES</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">PRICING</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">CONTACT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active btn btn-secondary text-white" href="#">LOGIN</a>
-      </li>
-    </ul>
-  </nav>
+    <!--Contenedor Barra de tareas-->
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <img src="images/logo-bookmark.svg" alt="Logo Bookmark" class="img-fluid">
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">FEATURES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn login btn-secondary" aria-disabled="true">LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-  <div class="row col-sm-12 col-md-8">
-    <!-- Contenido principal -->
+    <!--Contenedor texto-imagen-->
+    <div class="row align-items-center">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 mt-5">
+        <h1>A Simple Bookmark Manager</h1>
+        <p class="text-start">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, ipsam ipsum reiciendis rem error voluptas, dolor sit ipsa quo pariatur est deleniti illum quis ex et voluptatem quasi autem unde!
+        </p>
+        <div class="container-bottom">
+          <a class="chrome btn btn-primary" href="#">Get it on Chrome</a>
+          <a class="firefox firefox btn shadow" href="#">Get it on Firefox</a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 mt-5">
+        <img src="images/illustration-hero.svg" alt="Hero Illustration" class="img-fluid">
+      </div>
+    </div>
+
   </div>
-  <div class="col-sm-12 col-md-4">
-    <!-- Barra lateral u otro contenido -->
-  </div>
-
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
