@@ -1,0 +1,14 @@
+$principal: #d21496;
+
+$primary: $principal;
+$enable-shadows: true;
+$enable-gradients: true;
+$btn-padding-y: .8rem;
+$btn-padding-x: 1.5rem;
+$btn-border-radius:1rem;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn-primary{
+    border-radius: 3px solid rgba(0,0,0,0.27);
+}
