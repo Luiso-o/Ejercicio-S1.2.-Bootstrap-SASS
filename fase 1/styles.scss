@@ -1,23 +1,62 @@
 $primary: #5265E1;
 $secondary: #FA5959;
+$gray: #304352;
 
 $theme-colors: (
   "primary": $primary,
-  "secondary": $secondary
+  "secondary": $secondary,
 );
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-// Contenedor barra superior
-.login {
+// Mixin para las transiciones comunes
+@mixin transition-common{
   transition: background-color 0.3s, color 0.3s, border 0.3s;
   border: 1px solid transparent;
   box-shadow: none;
+}
 
-  &:hover {
-    background-color: white;
-    color: $secondary;
-    border: 1px solid $secondary;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+// Contenedor barra superior
+.barras {
+  a {
+    &:hover {
+      color: $secondary;
+    }
   }
+
+  .login {
+    @include transition-common();
+
+    &:hover {
+      background-color: white;
+      border: 1px solid $secondary;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+// Contenedor inferior
+.container-bottom {
+  .chrome{
+    @include transition-common();
+
+    &:hover {
+      border: 1px solid $primary;
+      color: $primary;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .firefox{
+    @include transition-common();
+
+    &:hover {
+      border: 1px solid $gray;
+      color: $gray;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+
 }
