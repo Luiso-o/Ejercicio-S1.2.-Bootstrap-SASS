@@ -40,7 +40,7 @@
 
 * Ahora toca crear la parte de funcionalidades del producto que estamos vendiendo:
 
-* Requisitos mínimos:
+### Requisitos mínimos:
 
 * La sección "Características", con el texto descriptivo, debe ir dentro del sistema de cuadrícula de Bootstrap.
 * Debes utilizar el componente de pestañas (tabs) de Bootstrap, modificando sus estilos para adaptarlos a nuestra página web.
