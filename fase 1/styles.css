@@ -11412,17 +11412,39 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body .navbar a:hover {
+.barras a:hover {
   color: #FA5959;
 }
-body .btn {
+.barras .login {
   transition: background-color 0.3s, color 0.3s, border 0.3s;
   border: 1px solid transparent;
   box-shadow: none;
 }
-body .btn:hover {
-  background-color: white !important;
-  color: #FA5959 !important;
-  border: 1px solid #FA5959 !important;
+.barras .login:hover {
+  background-color: white;
+  border: 1px solid #FA5959;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-bottom .chrome {
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+.container-bottom .chrome:hover {
+  border: 1px solid #5265E1;
+  color: #5265E1;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container-bottom .firefox {
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+.container-bottom .firefox:hover {
+  border: 1px solid #304352;
+  color: #304352;
+  background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=styles.css.map */
