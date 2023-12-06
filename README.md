@@ -33,5 +33,20 @@
 
 * Modificar con SASS, a través del archivo creado por ti "main.scss", el color principal y secundario de Bootstrap. Utiliza estas variables para los colores de los botones:
 
-Color principal: #5265E1
-Color secundario: #FA5959.
+* Color principal: #5265E1
+* Color secundario: #FA5959.
+
+## fase 2
+
+* Ahora toca crear la parte de funcionalidades del producto que estamos vendiendo:
+
+* Requisitos mínimos:
+
+* La sección "Características", con el texto descriptivo, debe ir dentro del sistema de cuadrícula de Bootstrap.
+* Debes utilizar el componente de pestañas (tabs) de Bootstrap, modificando sus estilos para adaptarlos a nuestra página web.
+
+### Para obtener más información:
+
+* En este tutorial se explica cómo hacerlo: <a href = "https://turbofuture.com/computers/Apply-custom-styles-to-bootastrap-tabs-step-by-step"> enlace al tutorial. </a>
+
+* Diseño adaptable (responsive).
