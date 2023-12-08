@@ -50,3 +50,12 @@
 * En este tutorial se explica cómo hacerlo: <a href = "https://turbofuture.com/computers/Apply-custom-styles-to-bootastrap-tabs-step-by-step"> enlace al tutorial. </a>
 
 * Diseño adaptable (responsive).
+
+## fase 3
+* Debes construir la tercera parte del sitio web: el área de descargas.
+
+* Dado que las tarjetas de la imagen son muy diferentes a las tarjetas de Bootstrap, en este ejercicio te damos la opción de personalizar las tarjetas de Bootstrap o bien crear tus propias clases para maquetarlas.
+
+Requisitos mínimos:
+- Responsivo.
+- Botones de Bootstrap con el color primario definido en el ejercicio 1.
