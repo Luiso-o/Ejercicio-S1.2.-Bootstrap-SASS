@@ -1,0 +1,13 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$black: #000;
+$gray: #bdc3c7;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "black": $black,
+    "gray": $gray
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
