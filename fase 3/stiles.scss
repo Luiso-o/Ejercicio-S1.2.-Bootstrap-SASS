@@ -11,3 +11,28 @@ $theme-colors: (
 );
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@mixin transition-common{
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    border: 1px solid transparent;
+    box-shadow: none;
+  }
+
+.small-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.button-transition{
+ @include transition-common;
+
+ &:hover{
+    font-weight: bold;
+    color: $primary;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+}
