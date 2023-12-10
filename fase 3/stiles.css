@@ -11584,4 +11584,22 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.small-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-transition {
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+.button-transition:hover {
+  font-weight: bold;
+  color: #5265E1;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=stiles.css.map */
