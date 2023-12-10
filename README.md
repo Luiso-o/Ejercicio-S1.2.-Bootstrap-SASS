@@ -56,6 +56,16 @@
 
 * Dado que las tarjetas de la imagen son muy diferentes a las tarjetas de Bootstrap, en este ejercicio te damos la opción de personalizar las tarjetas de Bootstrap o bien crear tus propias clases para maquetarlas.
 
-Requisitos mínimos:
+### Requisitos mínimos:
 - Responsivo.
 - Botones de Bootstrap con el color primario definido en el ejercicio 1.
+
+## fase 4
+* ¡ENHORABUENA! ¡Ya casi tienes completado el nivel 1! Ahora toca desarrollar la sección de Preguntas Frecuentes (FAQS):
+
+### Requisitos mínimos:
+- Utilizar el componente "Accordion" y personalizar las clases para adaptarlo al diseño.
+
+- Ser responsive.
+
+- Utilizar un botón de Bootstrap.
