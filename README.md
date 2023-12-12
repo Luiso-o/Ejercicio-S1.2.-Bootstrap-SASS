@@ -12,6 +12,8 @@
 
 * Personaliza el tema de Bootstrap por defecto para adaptarlo a los estilos de la web que estás creando mediante SASS. No es necesario crear nuevas clases, puedes ajustar Bootstrap para adaptarlo a tus necesidades: rellenos por defecto, colores del tema, márgenes...
 
+# NIvel 1
+
 ## Fase 1
 
 * En este ejercicio comenzaremos con la parte principal, que es el contenido que ven los usuarios al entrar en la web:
@@ -69,3 +71,26 @@
 - Ser responsive.
 
 - Utilizar un botón de Bootstrap.
+
+# Nivel 2
+
+* ¡OJO! Antes de pasar al nivel 2, verifica que has entendido bien todos los ejercicios del nivel 1.
+
+* Los niveles 2 y 3 son opcionales; lo importante es comprender los conceptos de cada sprint. Si los has copiado rápidamente de internet, carece de valor. Si avanzas de esta manera en todos los sprints, habrás trabajado mucho pero aprendido poco.
+
+* En una entrevista técnica en una empresa o en las pruebas de nivel del itinerario (después de los sprints 5 y 9), se detectan rápidamente estos casos. No retrases tu aprendizaje; es mejor hacer pocos ejercicios bien que muchos rápidos.
+
+## fase 5
+
+* Solamente falta un bloque para completar la web: el pie de página.
+
+### Requisitos mínimos:
+- Utilizar los formularios de Bootstrap.
+
+- Mostrar un mensaje de error cuando se envía el formulario del boletín de noticias y el campo de entrada está vacío o la dirección de correo electrónico no está formateada correctamente. Debe realizarse con Bootstrap.
+
+* Para obtener más información
+
+* Sobre formularios de Bootstrap -> <a href = "https://getbootstrap.com/docs/5.0/forms/overview/"> Descripción general de formularios </a>
+
+* Más información sobre cómo validar formularios con Bootstrap -> <a href = "https://www.youtube.com/results?search_query=bootstrap+5+form+validation"> Videos de validación de formularios en Bootstrap 5 </a>
