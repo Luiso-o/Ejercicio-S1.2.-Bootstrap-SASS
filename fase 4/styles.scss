@@ -1,0 +1,22 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$white: white;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "white": $white
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-button:hover{
+    background-color: $white;
+    color: $secondary;
+}
